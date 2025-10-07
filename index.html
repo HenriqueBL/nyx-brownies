@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYX Brownies - Brownies Artesanais Irresistíveis</title>
+    <link rel="icon" type="image/x-icon" href="nyxicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo-nav">NYX <span>BROWNIES</span></div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#pedidos">Pedidos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Brownies <span class="brand-name">NYX</span></h1>
+            <p>Brownies artesanais feitos com amor, ingredientes selecionados e muita dedicação. Cada pedaço é uma experiência única de sabor e textura.</p>
+            <a href="#produtos" class="cta-button">Ver Produtos 🍫</a>
+        </div>
+        <div class="hero-image">
+            <div class="logo-container">
+                <!-- Substitua este placeholder pela sua logo nyxlogo.png -->
+                <img src="nyxlogo.png" alt="NYX Brownies" style="max-width: 140%; height: auto; z-index: 1;">
+                <!--  <div class="logo-placeholder" style="background: linear-gradient(135deg, #9773b5, #450065); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">NYX</div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre">
+        <h2 class="section-title">Sobre a NYX</h2>
+        <div class="about-content">
+            <p>A NYX Brownies nasceu da paixão por criar brownies excepcionais que combinam tradição e inovação. Cada receita é cuidadosamente desenvolvida para proporcionar a textura perfeita: crocante por fora e irresistivelmente cremoso por dentro.</p>
+            <p>Utilizamos apenas ingredientes premium e selecionados, garantindo que cada mordida seja uma experiência memorável. Nossa missão é transformar momentos especiais em lembranças deliciosas.</p>
+            
+            <div class="values">
+                <div class="value-card">
+                    <h3>💜 Qualidade</h3>
+                    <p>Ingredientes selecionados e receitas testadas para garantir o melhor sabor</p>
+                </div>
+                <div class="value-card">
+                    <h3>✨ Artesanal</h3>
+                    <p>Cada brownie é feito à mão com carinho e atenção aos detalhes</p>
+                </div>
+                <div class="value-card">
+                    <h3>🎯 Excelência</h3>
+                    <p>Comprometimento com a perfeição em cada entrega</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos">
+        <h2 class="section-title">Nossos Brownies</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">🍫</div>
+                <div class="product-info">
+                    <h3>Brownie Tradicional</h3>
+                    <p>O clássico que conquistou corações! Chocolate belga 70% cacau, textura perfeita entre crocante e cremoso.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Brownie%20Tradicional" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🌰</div>
+                <div class="product-info">
+                    <h3>Brownie com Nozes</h3>
+                    <p>A combinação perfeita! Chocolate premium com nozes crocantes selecionadas para aquele toque especial.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Brownie%20com%20Nozes" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🤍</div>
+                <div class="product-info">
+                    <h3>Brownie Branco</h3>
+                    <p>Para os amantes de chocolate branco! Suave, cremoso e irresistível com gotas de chocolate branco belga.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Brownie%20Branco" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">💕</div>
+                <div class="product-info">
+                    <h3>Brownie Recheado</h3>
+                    <p>Surpreenda-se! Centro cremoso de doce de leite ou nutella envolvido por chocolate intenso.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Brownie%20Recheado" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🍓</div>
+                <div class="product-info">
+                    <h3>Brownie Red Velvet</h3>
+                    <p>Sofisticado e delicioso! Cacau premium com toque de baunilha e cream cheese.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Brownie%20Red%20Velvet" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🎁</div>
+                <div class="product-info">
+                    <h3>Kit Corporativo</h3>
+                    <p>Perfeito para empresas! Caixas personalizadas com sortimento de sabores para presentear clientes e colaboradores.</p>
+                    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜%20-%20Kit%20Corporativo" class="product-button">Pedir Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Orders Section -->
+    <section id="pedidos">
+        <div class="online-orders">
+            <h2>Peça seu Brownie Agora!</h2>
+            <p>Faça seu pedido pelo WhatsApp e receba brownies fresquinhos direto na sua casa ou empresa 💜</p>
+            <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜" class="whatsapp-cta">
+                <span style="font-size: 2rem;">💬</span>
+                Pedir no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3 style="color: var(--secondary); margin-bottom: 1rem;">Redes Sociais</h3>
+                <p style="color: var(--text-light); margin-bottom: 2rem;">Siga a NYX e fique por dentro das novidades, promoções e lançamentos!</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/nyxbrownies" target="_blank">📷</a>
+                    <a href="https://facebook.com/nyxbrownies" target="_blank">👥</a>
+                    <a href="https://wa.me/5581984155314" target="_blank">💬</a>
+                </div>
+                <div style="margin-top: 3rem;">
+                    <h3 style="color: var(--secondary); margin-bottom: 1rem;">Horário de Atendimento</h3>
+                    <p style="color: var(--text-light);">Segunda a Sexta: 9h às 18h</p>
+                    <p style="color: var(--text-light);">Sábado: 9h às 14h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/5581984155314?text=Olá,%20vi%20o%20site%20da%20NYX%20e%20quero%20fazer%20um%20pedido%20de%20brownies%20🍫💜" class="whatsapp-fixed" target="_blank">
+        💬
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>NYX Brownies</h3>
+                <p>Brownies artesanais que transformam momentos em memórias deliciosas.</p>
+                <p style="margin-top: 1rem;">CNPJ: 00.000.000/0001-00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#pedidos">Pedidos</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>📧 contato@nyxbrownies.com.br</p>
+                <p>📱 (11) 99999-9999</p>
+                <p>📍 São Paulo, SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NYX Brownies. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
